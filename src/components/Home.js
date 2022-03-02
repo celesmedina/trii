@@ -61,6 +61,7 @@ function Home() {
               location={character.location.name}
               image={character.image}
               species={character.species}
+              key={character.id}
             />
           ))}
       </div>
